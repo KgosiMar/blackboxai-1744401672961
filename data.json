@@ -1,0 +1,88 @@
+{
+  "djs": [
+    {
+      "id": "1",
+      "name": "DJ Soulful",
+      "bio": "Bringing the best of South African soul music to the world.",
+      "profilePic": "https://via.placeholder.com/300",
+      "audioSet": "sample1.mp3",
+      "contactDetails": "dj.soulful@example.com",
+      "genres": ["Soul", "R&B", "Jazz"],
+      "bookingFee": 5000,
+      "upcomingEvents": [
+        {
+          "date": "2024-02-01",
+          "venue": "Soul Club Johannesburg",
+          "type": "Club Session"
+        }
+      ],
+      "socialMedia": {
+        "facebook": "djsoulful",
+        "instagram": "djsoulful",
+        "twitter": "djsoulful"
+      }
+    },
+    {
+      "id": "2",
+      "name": "DJ Groove Master",
+      "bio": "Specializing in classic soul and modern remixes.",
+      "profilePic": "https://via.placeholder.com/300",
+      "audioSet": "sample2.mp3",
+      "contactDetails": "groove.master@example.com",
+      "genres": ["Soul", "Funk", "House"],
+      "bookingFee": 6000,
+      "upcomingEvents": [
+        {
+          "date": "2024-02-15",
+          "venue": "Soweto Music Festival",
+          "type": "Festival"
+        }
+      ],
+      "socialMedia": {
+        "facebook": "groovemaster",
+        "instagram": "groovemaster",
+        "twitter": "groovemaster"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "Soul By The Dam",
+      "date": "2024-03-01",
+      "venue": "Emmarentia Dam",
+      "description": "Annual soul music festival featuring top South African DJs",
+      "ticketPrice": 250,
+      "performers": ["1", "2"]
+    }
+  ],
+  "playlists": [
+    {
+      "id": "1",
+      "name": "Classic Soul Party",
+      "creator": "1",
+      "tracks": [
+        "Soul Train - James Brown",
+        "Respect - Aretha Franklin",
+        "Let's Stay Together - Al Green"
+      ]
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "Soul",
+      "description": "Traditional soul music with a South African twist"
+    },
+    {
+      "id": "2",
+      "name": "R&B",
+      "description": "Modern rhythm and blues mixed with soul elements"
+    },
+    {
+      "id": "3",
+      "name": "Jazz",
+      "description": "Jazz-influenced soul music"
+    }
+  ]
+}
